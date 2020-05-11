@@ -1,0 +1,25 @@
+body {
+    
+    background: rgb(150,34,85);
+    background: radial-gradient(circle, rgba(150,34,85,1) 0%, rgba(148,187,233,1) 100%);
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+    padding: 0;
+  }
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
